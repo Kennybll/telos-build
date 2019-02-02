@@ -1,0 +1,752 @@
+The system is: Linux - 4.4.0-141-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang-4.0 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/root/telos/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++-4.0 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/root/telos/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80904.dir/build.make CMakeFiles/cmTC_80904.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80904.dir/testCCompiler.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_80904.dir/testCCompiler.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_80904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80904.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_80904.dir/testCCompiler.c.o  -o cmTC_80904 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3960/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3960.dir/build.make CMakeFiles/cmTC_a3960.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a3960
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3960.dir/link.txt --verbose=1
+/usr/bin/clang-4.0      -v CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o  -o cmTC_a3960  
+clang version 4.0.0-1ubuntu1~16.04.2 (tags/RELEASE_400/rc1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3960 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-4.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/telos/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a3960/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a3960.dir/build.make CMakeFiles/cmTC_a3960.dir/build]
+  ignore line: [make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-4.0     -o CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a3960]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3960.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-4.0      -v CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o  -o cmTC_a3960  ]
+  ignore line: [clang version 4.0.0-1ubuntu1~16.04.2 (tags/RELEASE_400/rc1)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a3960 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-4.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a3960] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/usr/lib/llvm-4.0/bin/../lib] ==> dir [/usr/lib/llvm-4.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_a3960.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-4.0/bin/../lib] ==> [/usr/lib/llvm-4.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-4.0/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf776/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf776.dir/build.make CMakeFiles/cmTC_bf776.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf776.dir/feature_tests.c.o
+/usr/bin/clang-4.0    -std=c11 -o CMakeFiles/cmTC_bf776.dir/feature_tests.c.o   -c /root/telos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bf776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf776.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_bf776.dir/feature_tests.c.o  -o cmTC_bf776 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46b2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46b2f.dir/build.make CMakeFiles/cmTC_46b2f.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46b2f.dir/feature_tests.c.o
+/usr/bin/clang-4.0    -std=c99 -o CMakeFiles/cmTC_46b2f.dir/feature_tests.c.o   -c /root/telos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_46b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b2f.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_46b2f.dir/feature_tests.c.o  -o cmTC_46b2f 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19140/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19140.dir/build.make CMakeFiles/cmTC_19140.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19140.dir/feature_tests.c.o
+/usr/bin/clang-4.0    -std=c90 -o CMakeFiles/cmTC_19140.dir/feature_tests.c.o   -c /root/telos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19140.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_19140.dir/feature_tests.c.o  -o cmTC_19140 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52261/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52261.dir/build.make CMakeFiles/cmTC_52261.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52261.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++-4.0      -o CMakeFiles/cmTC_52261.dir/testCXXCompiler.cxx.o -c /root/telos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_52261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52261.dir/link.txt --verbose=1
+/usr/bin/clang++-4.0        CMakeFiles/cmTC_52261.dir/testCXXCompiler.cxx.o  -o cmTC_52261 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbfaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbfaf.dir/build.make CMakeFiles/cmTC_dbfaf.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-4.0      -o CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_dbfaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbfaf.dir/link.txt --verbose=1
+/usr/bin/clang++-4.0       -v CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dbfaf  
+clang version 4.0.0-1ubuntu1~16.04.2 (tags/RELEASE_400/rc1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dbfaf /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-4.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/telos/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dbfaf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dbfaf.dir/build.make CMakeFiles/cmTC_dbfaf.dir/build]
+  ignore line: [make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-4.0      -o CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_dbfaf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbfaf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-4.0       -v CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dbfaf  ]
+  ignore line: [clang version 4.0.0-1ubuntu1~16.04.2 (tags/RELEASE_400/rc1)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dbfaf /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-4.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dbfaf] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/usr/lib/llvm-4.0/bin/../lib] ==> dir [/usr/lib/llvm-4.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_dbfaf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-4.0/bin/../lib] ==> [/usr/lib/llvm-4.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-4.0/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b16df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b16df.dir/build.make CMakeFiles/cmTC_b16df.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b16df.dir/feature_tests.cxx.o
+/usr/bin/clang++-4.0     -std=c++14 -o CMakeFiles/cmTC_b16df.dir/feature_tests.cxx.o -c /root/telos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b16df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16df.dir/link.txt --verbose=1
+/usr/bin/clang++-4.0        CMakeFiles/cmTC_b16df.dir/feature_tests.cxx.o  -o cmTC_b16df 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3894/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3894.dir/build.make CMakeFiles/cmTC_b3894.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3894.dir/feature_tests.cxx.o
+/usr/bin/clang++-4.0     -std=c++11 -o CMakeFiles/cmTC_b3894.dir/feature_tests.cxx.o -c /root/telos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b3894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3894.dir/link.txt --verbose=1
+/usr/bin/clang++-4.0        CMakeFiles/cmTC_b3894.dir/feature_tests.cxx.o  -o cmTC_b3894 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbebe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbebe.dir/build.make CMakeFiles/cmTC_cbebe.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cbebe.dir/feature_tests.cxx.o
+/usr/bin/clang++-4.0     -std=c++98 -o CMakeFiles/cmTC_cbebe.dir/feature_tests.cxx.o -c /root/telos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cbebe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbebe.dir/link.txt --verbose=1
+/usr/bin/clang++-4.0        CMakeFiles/cmTC_cbebe.dir/feature_tests.cxx.o  -o cmTC_cbebe 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be3cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be3cb.dir/build.make CMakeFiles/cmTC_be3cb.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be3cb.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_be3cb.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be3cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be3cb.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_be3cb.dir/CheckIncludeFile.c.o  -o cmTC_be3cb -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_227e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_227e1.dir/build.make CMakeFiles/cmTC_227e1.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_227e1.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_227e1.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_227e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_227e1.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_227e1.dir/CheckIncludeFile.c.o  -o cmTC_227e1 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91404/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91404.dir/build.make CMakeFiles/cmTC_91404.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91404.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_91404.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91404.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_91404.dir/CheckIncludeFile.c.o  -o cmTC_91404 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e19c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e19c8.dir/build.make CMakeFiles/cmTC_e19c8.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e19c8.dir/CheckSymbolExists.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_e19c8.dir/CheckSymbolExists.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e19c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e19c8.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_e19c8.dir/CheckSymbolExists.c.o  -o cmTC_e19c8 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+File /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_439e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_439e2.dir/build.make CMakeFiles/cmTC_439e2.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_439e2.dir/CheckSymbolExists.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_439e2.dir/CheckSymbolExists.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_439e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_439e2.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_439e2.dir/CheckSymbolExists.c.o  -o cmTC_439e2 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+File /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32eec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32eec.dir/build.make CMakeFiles/cmTC_32eec.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32eec.dir/CheckSymbolExists.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_32eec.dir/CheckSymbolExists.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_32eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32eec.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_32eec.dir/CheckSymbolExists.c.o  -o cmTC_32eec -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+File /root/telos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef6a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef6a8.dir/build.make CMakeFiles/cmTC_ef6a8.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef6a8.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_ef6a8.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef6a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6a8.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_ef6a8.dir/CheckIncludeFile.c.o  -o cmTC_ef6a8 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19f29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19f29.dir/build.make CMakeFiles/cmTC_19f29.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19f29.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_19f29.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_19f29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f29.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_19f29.dir/CheckIncludeFile.c.o  -o cmTC_19f29 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ddb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ddb0.dir/build.make CMakeFiles/cmTC_3ddb0.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ddb0.dir/CheckIncludeFile.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_3ddb0.dir/CheckIncludeFile.c.o   -c /root/telos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3ddb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ddb0.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_3ddb0.dir/CheckIncludeFile.c.o  -o cmTC_3ddb0 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e5c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e5c2.dir/build.make CMakeFiles/cmTC_6e5c2.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e5c2.dir/SSIZE_T.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_6e5c2.dir/SSIZE_T.c.o   -c /root/telos/build/CMakeFiles/CheckTypeSize/SSIZE_T.c
+Linking C executable cmTC_6e5c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e5c2.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_6e5c2.dir/SSIZE_T.c.o  -o cmTC_6e5c2 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /root/telos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa902/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa902.dir/build.make CMakeFiles/cmTC_aa902.dir/build
+make[1]: Entering directory '/root/telos/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa902.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/clang-4.0     -o CMakeFiles/cmTC_aa902.dir/SIZEOF_SIZE_T.c.o   -c /root/telos/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_aa902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa902.dir/link.txt --verbose=1
+/usr/bin/clang-4.0       CMakeFiles/cmTC_aa902.dir/SIZEOF_SIZE_T.c.o  -o cmTC_aa902 -rdynamic 
+make[1]: Leaving directory '/root/telos/build/CMakeFiles/CMakeTmp'
+
+
